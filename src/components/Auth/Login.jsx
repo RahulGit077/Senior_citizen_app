@@ -38,7 +38,6 @@ const Login = () => {
     <div className="login-container">
       <form className="login-box" onSubmit={onSubmitHandler}>
         <p className="login-title">Login</p>
-        <p className="login-subtitle">Please log in to continue.</p>
         {error && <p className="error-message">{error}</p>}
 
         {/* Email Input */}

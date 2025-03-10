@@ -44,9 +44,6 @@ const Register = () => {
         <FaTimes className="close-icon" onClick={() => navigate("/")} />
 
         <p className="signup-title">Create Account</p>
-        <p className="signup-subtitle">
-          Please sign up to book an appointment.
-        </p>
 
         {error && <p className="error-message">{error}</p>}
         {success && <p className="success-message">{success}</p>}
