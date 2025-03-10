@@ -1,0 +1,136 @@
+.signup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+  }
+  
+  .signup-box {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .close-icon {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    font-size: 18px;
+    color: grey;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .close-icon:hover {
+    color: black;
+  }
+  
+  .signup-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  .signup-subtitle {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 20px;
+  }
+  
+  .input-group {
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  .input-group label {
+    font-size: 14px;
+    font-weight: 500;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .input-group input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  .password-container {
+    position: relative;
+  }
+  
+  .password-wrapper {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 0 10px;
+  }
+  
+  .password-wrapper input {
+    width: 100%;
+    border: none;
+    padding: 10px;
+    font-size: 14px;
+    outline: none;
+  }
+  
+  .password-wrapper span {
+    cursor: pointer;
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .signup-button {
+    width: 100%;
+    background-color: #5f6ce3;
+    color: white;
+    border: none;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .signup-button:hover {
+    background-color: #4f5de0;
+  }
+  
+  .error-message {
+    color: red;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  .success-message {
+    color: green;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  .login-link {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .login-link span {
+    color: #5f6ce3;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  
+  .login-link span:hover {
+    text-decoration: underline;
+  }
+  

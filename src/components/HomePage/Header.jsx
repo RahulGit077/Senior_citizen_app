@@ -11,11 +11,14 @@ const Header = ({ activateSlide }) => {
           <div className="h-menu">Menu</div>
         </div>
         <div className="h_container_2">
-          <div className="slide_opt opt_1" onClick={() => activateSlide(0)}>
-            Social
+          <div className="slide_opt opt_3" onClick={() => activateSlide(2)}>
+            Personal Space
           </div>
           <div className="slide_opt opt_2" onClick={() => activateSlide(1)}>
             Service
+          </div>
+          <div className="slide_opt opt_1" onClick={() => activateSlide(0)}>
+            Social
           </div>
         </div>
       </div>

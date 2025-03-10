@@ -1,0 +1,74 @@
+/* Main container */
+.social-container {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    gap: 15px;
+  }
+  
+  /* Posts Section */
+  .feed {
+    background: #fffbe6;
+    padding: 12px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Individual Post */
+  .post {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeIn 0.5s forwards;
+  }
+  
+  /* Friend Suggestions */
+  .friend-suggestions {
+    background: #e6f7ff;
+    padding: 12px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Loading Indicator */
+  .loading {
+    text-align: center;
+    font-size: 14px;
+    color: gray;
+    padding: 10px;
+  }
+  
+  /* Fade In Animation */
+  @keyframes fadeIn {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 400px) {
+    .profile-pic {
+      width: 35px;
+      height: 35px;
+    }
+  
+    .username {
+      font-size: 14px;
+    }
+  
+    .post-content {
+      font-size: 14px;
+    }
+  
+    .friend-name {
+      font-size: 13px;
+    }
+  
+    button {
+      padding: 5px 12px;
+      font-size: 12px;
+    }
+  }
+  

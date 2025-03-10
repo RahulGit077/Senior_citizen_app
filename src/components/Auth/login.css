@@ -1,0 +1,177 @@
+/* Login Container */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+  }
+  
+  /* Login Box */
+  .login-box {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  /* Close Icon */
+  .close-icon {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    font-size: 18px;
+    color: grey;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .close-icon:hover {
+    color: black;
+  }
+  
+  /* Login Titles */
+  .login-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  .login-subtitle {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 20px;
+  }
+  
+  /* Input Groups */
+  .input-group {
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  .input-group label {
+    font-size: 14px;
+    font-weight: 500;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .input-group input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  /* Password Container */
+  .password-container {
+    position: relative;
+  }
+  
+  .password-wrapper {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 0 10px;
+  }
+  
+  .password-wrapper input {
+    width: 100%;
+    border: none;
+    padding: 10px;
+    font-size: 14px;
+    outline: none;
+  }
+  
+  .password-wrapper span {
+    cursor: pointer;
+    font-size: 16px;
+    color: #555;
+  }
+  
+  /* Remember Me */
+  .remember-me {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+  .remember-me input {
+    margin-right: 5px;
+  }
+  
+  /* Forgot Password */
+  .forgot-password {
+    font-size: 14px;
+    color: blue;
+    font-weight: 600;
+    cursor: pointer;
+    margin-bottom: 15px;
+  }
+  
+  .forgot-password:hover {
+    text-decoration: underline;
+  }
+  
+  /* Login Button */
+  .login-button {
+    width: 100%;
+    background-color: darkblue;
+    color: white;
+    border: none;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .login-button:hover {
+    background-color: rgb(11,11,85);
+  }
+  
+  /* Error Message */
+  .error-message {
+    color: red;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  /* Signup Link */
+  .signup-link {
+    margin-top: 15px;
+    font-size: 14px;
+    
+  }
+  
+  .signup-link span {
+    color: rgb(202, 222, 193);
+    font-weight: 600;
+    cursor: pointer;
+  }
+  
+  .signup-link span:hover {
+    text-decoration: underline;
+    color: darkblue;
+  }
+  
+  /* Social Login */
+  .social-login {
+    margin-top: 20px;
+  }
+  
+  .social-login p {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  
