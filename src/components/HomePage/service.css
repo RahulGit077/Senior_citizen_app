@@ -1,0 +1,21 @@
+.service_card{
+ background-color:rgb(189, 188, 188);
+    display: flex;
+    gap:10px;
+    
+    margin-top: 20px;
+    border-radius: 10px;
+    padding:20px;
+    margin-left: 10px;
+    margin-right:20px;
+    color:black;
+
+}
+.service_card:hover{
+    background-color:blue;
+    color:white;
+    
+}
+
+
+
