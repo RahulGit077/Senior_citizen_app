@@ -1,13 +1,13 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import HomePage from "./components/HomePage/HomePage";
+import React from "react";
+import { BrowserRouter as Router, Routes, Route, BrowserRouter } from "react-router-dom";
+import Login from "./components/Auth/Login";
+import Register from "./components/Auth/Register";
 
-function App() {
+const App = () => {
   return (
-    <>
-      <HomePage />
-    </>
+   <Login/>
+   
   );
-}
+};
 
 export default App;
