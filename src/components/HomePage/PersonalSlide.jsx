@@ -1,7 +1,16 @@
 import React from "react";
+import { useState } from "react";
 
 const PersonalSlide = () => {
-  return <div>PersonalSlide</div>;
+ 
+ const [search, setSearch] = useState("");
+
+
+  return (
+    <div>
+    
+    </div>
+  );
 };
 
 export default PersonalSlide;

@@ -1,7 +1,9 @@
 .service_card{
     background-color:rgb(189, 188, 188);
-    display: flex;
+    height: 150px;
     gap:10px;
+    width:300px;
+    
 
     margin-top: 20px;
     border-radius: 10px;
@@ -13,7 +15,9 @@
     animation: fadeIn 0.5s forwards;
 
 }
+
+
 .service_card:hover{
-    background-color:blue;
+    background-color:darkblue;
     color:white;
 }
